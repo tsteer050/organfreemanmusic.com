@@ -1,0 +1,17 @@
+.menu-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: blue;
+}
+
+.menu-bar-items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.menu-bar-items li {
+  margin: 0 5px 0 5px;
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import MenuBar from './MenuBar';
 
 class Splash extends React.Component {
   constructor(props) {
@@ -8,6 +9,7 @@ class Splash extends React.Component {
   render() {
     return (
       <div>
+        <MenuBar/>
         <h1>Splash</h1>
       </div>
     );

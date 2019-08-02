@@ -1,5 +1,7 @@
 import React from 'react';
 import MenuBar from './MenuBar';
+import Music from './Music';
+import Tour from './Tour';
 
 class Splash extends React.Component {
   constructor(props) {
@@ -11,6 +13,8 @@ class Splash extends React.Component {
       <div>
         <MenuBar/>
         <h1>Splash</h1>
+        <Music/>
+        <Tour/>
       </div>
     );
   }

@@ -20,7 +20,7 @@ class MenuBar extends React.Component {
             <h1>Band</h1>
           </li>
           <li>
-            <h1>Store</h1>
+            <a href="https://organfreemanmusic.hilinemerchandising.com/">Store</a>
           </li>
           <li>
             <h1>Subscribe</h1>

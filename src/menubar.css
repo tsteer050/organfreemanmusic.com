@@ -2,16 +2,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  text-decoration: none;
   background-color: blue;
+  font-size: 13px;
+  color: lightgray;
 }
 
 .menu-bar-items {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  list-style-type: none;
 }
 
 .menu-bar-items li {
   margin: 0 5px 0 5px;
+}
+
+.menu-bar-items li:hover {
+  color: white;
+  cursor: pointer;
 }

@@ -13,30 +13,30 @@ class MenuBar extends React.Component {
         <ul className="menu-bar-items">
           <Link to="/music">
             <li>
-              <h1>Music</h1>
+              <h5>Music</h5>
             </li>
           </Link>
           <Link to="/tour">
             <li>
-              <h1>Tour</h1>
+              <h5>Tour</h5>
             </li>
           </Link>
           <Link to="/band">
             <li>
-              <h1>Band</h1>
+              <h5>Band</h5>
             </li>
           </Link>
           <li>
-            <a href="https://organfreemanmusic.hilinemerchandising.com/">Store</a>
+            <a href="https://organfreemanmusic.hilinemerchandising.com/"><h5>Store</h5></a>
           </li>
           <Link to="/subscribe">
             <li>
-              <h1>Subscribe</h1>
+              <h5>Subscribe</h5>
             </li>
           </Link>
           <Link to="/contact">
             <li>
-              <h1>Contact</h1>
+              <h5>Contact</h5>
             </li>
           </Link>
         </ul>

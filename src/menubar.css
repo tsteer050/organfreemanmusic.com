@@ -7,6 +7,15 @@
   color: lightgray;
 }
 
+.menu-bar-items h5 {
+  font-size: 14px;
+  color: rgba(255,255,255,.6);
+}
+
+.menu-bar-items h5:hover {
+  color: #fff;
+}
+
 .menu-bar-items {
   display: flex;
   justify-content: space-evenly;

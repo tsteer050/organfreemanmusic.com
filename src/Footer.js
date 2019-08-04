@@ -11,21 +11,30 @@ class Footer extends React.Component {
       <div className="footer-div">
         <ul className="footer-icons">
           <li>
-            <i class="fab fa-facebook"></i>
+            <a href="https://www.facebook.com/OrganFreemanMusic/">
+              <i class="fab fa-facebook"></i>
+            </a>
           </li>
           <li>
-            <i class="fab fa-instagram"></i>
+            <a href="https://www.instagram.com/organfreemanmusic/">
+              <i class="fab fa-instagram"></i>
+            </a>
           </li>
           <li>
-            <i class="fab fa-twitter"></i>
+            <a href="https://twitter.com/organ_freeman">
+              <i class="fab fa-twitter"></i>
+            </a>
           </li>
           <li>
-            <i class="fab fa-itunes-note"></i>
+            <a href="https://music.apple.com/us/artist/organ-freeman/1063765303">
+              <i class="fab fa-itunes-note"></i>
+            </a>
           </li>
           <li>
-            <i class="fab fa-spotify"></i>
+            <a href="https://open.spotify.com/artist/5y8QnEvg0nO3NwMRR0U2Ux">
+              <i class="fab fa-spotify"></i>
+            </a>
           </li>
-
         </ul>
       </div>
     );

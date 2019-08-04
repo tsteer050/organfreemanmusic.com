@@ -12,4 +12,5 @@
 .footer-icons li {
   margin: 0 4px 0 4px;
   list-style: none;
+  cursor: pointer;
 }

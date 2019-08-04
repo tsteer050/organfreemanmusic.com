@@ -12,7 +12,7 @@ class Footer extends React.Component {
         <ul className="footer-icons">
           <li>
             <a href="https://www.facebook.com/OrganFreemanMusic/">
-              <i class="fab fa-facebook"></i>
+              <i class="fab fa-facebook-f"></i>
             </a>
           </li>
           <li>

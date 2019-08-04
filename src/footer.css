@@ -1,6 +1,8 @@
 .footer-div {
   display: flex;
   justify-content: center;
+  background-color: black;
+
 }
 
 .footer-icons {
@@ -13,4 +15,16 @@
   margin: 0 4px 0 4px;
   list-style: none;
   cursor: pointer;
+}
+
+.footer-icons li a {
+  color: white;
+}
+
+.footer-icons:hover li a {
+  color: grey;
+}
+
+.footer-icons li a:hover {
+  color: white;
 }

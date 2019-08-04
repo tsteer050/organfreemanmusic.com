@@ -8,6 +8,7 @@ import Band from './Band';
 import Subscribe from './Subscribe';
 import Contact from './Contact';
 import Splash from './Splash';
+import Footer from './Footer';
 
 class Main extends React.Component {
   constructor(props) {
@@ -26,7 +27,7 @@ class Main extends React.Component {
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/" component={Splash}/>
         </Switch>
-
+      <Footer/>
       </div>
     );
   }

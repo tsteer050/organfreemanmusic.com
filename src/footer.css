@@ -1,0 +1,13 @@
+.footer-div {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-icons {
+  display: flex;
+}
+
+.footer-icons li {
+  margin: 0 4px 0 4px;
+  list-style: none;
+}
